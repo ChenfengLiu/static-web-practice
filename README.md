@@ -2,4 +2,4 @@
 
 Created a portfolio website from scratch.
 
-ChenfengLiu.github.io/static-web-practice
+https://chenfengliu.github.io/static-web-practice/
