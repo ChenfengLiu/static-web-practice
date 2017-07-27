@@ -8,3 +8,15 @@ function parallax() {
   $('.parallax--box').css('top', -5 + (dist*.005)+'em')
 
 }
+
+
+$(document).ready(function(){
+  $('.nav-section').click(function(e){
+    var linkHref = $(this).attr('href');
+    $('html, body').animate({
+      scrollTop: $(linkHref).offset().top
+    },1000);
+
+    e.preventDefault();
+  })
+})
